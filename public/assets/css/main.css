@@ -12,8 +12,16 @@
   margin: 0;
   padding: 0; }
 
-/*  html {
-    font-size: 62.5%;
- } */
+html {
+  font-size: 62.5%; }
+
+.burguer-box {
+  box-sizing: border-box;
+  height: 20px;
+  width: 20px;
+  background-color: #f26002; }
+
+.hero-pic {
+  width: 100%; }
 
 /*# sourceMappingURL=main.css.map */

@@ -13,6 +13,31 @@
     padding:0;
  }
 
-/*  html {
+ html {
     font-size: 62.5%;
- } */
+ }
+
+ $colorwhite: #fff;
+ $bright-orange: #f26002;
+ $black: #000;
+ $greyish-brown: #4a4a4a;
+ $white-two: #f2f2f2;
+
+.burguer-box {
+   box-sizing: border-box;
+   height: 20px;
+   width: 20px;
+   background-color: $bright-orange;
+
+
+}
+
+ .hero-pic {
+   width:100%
+
+ }
+ 
+
+
+
+
