@@ -38,12 +38,42 @@
    justify-content: center;
    z-index: 3;
 }
+.hero {
+   padding-bottom: 5%;
+   height: 300px;
+   background-image: url("../images/cover.jpeg");
+   background-repeat: no-repeat;
+   background-size: 180%;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   align-items:center;
+   text-align: center;
+   color:#fff
+}
+.title {
+   font-size: 3rem;
+   width:75%; 
+}
+.promo-1 {
+font-family:'Roboto', sans-serif;
+padding: 5% 0;
+font-size: 1.2rem;
+width:65%; 
+font-weight: 300;
+line-height: 1;
+}
+.white-circle {
+   background-color: #fff;
+   width: 23px;
+   height: 23px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 52%;
 
- .hero-pic {
-   width:100%;
-   position:relative;
-   bottom:20px;
- }
+}
+
  
  
 
