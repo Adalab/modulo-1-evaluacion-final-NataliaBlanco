@@ -30,11 +30,12 @@ html {
   z-index: 3; }
 
 .hero {
-  padding-bottom: 5%;
-  height: 300px;
+  height: 580px;
+  padding-bottom: 10px;
   background-image: url("../images/cover.jpeg");
   background-repeat: no-repeat;
-  background-size: 180%;
+  background-position: left;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -43,16 +44,17 @@ html {
   color: #fff; }
 
 .title {
-  font-size: 3rem;
-  width: 75%; }
+  font-size: 2rem; }
 
 .promo-1 {
   font-family: 'Roboto', sans-serif;
-  padding: 5% 0;
-  font-size: 1.2rem;
-  width: 65%;
+  padding: 10px 0;
+  font-size: 1.5rem;
   font-weight: 300;
   line-height: 1; }
+
+.scroll-down {
+  width: 15px; }
 
 .white-circle {
   background-color: #fff;
