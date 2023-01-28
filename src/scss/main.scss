@@ -355,5 +355,22 @@ $roboto: 'Roboto', sans-serif;
    position:relative;
    bottom: -52px;
 }   
-
+.footer {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   text-align: left;
+   padding: 50px 0;
+}
+.nav-1-ul {
+   padding: 13px 13px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: left;
+   line-height: 1.75;
+}
+.footer-branding {
+   order:-1;
+}
 }
