@@ -61,7 +61,7 @@ $roboto: 'Roboto', sans-serif;
 
 .title {
    font-family: $roboto;
-   font-size: 2.3rem;
+   font-size: 2.9rem;
    width: 290px;
    text-shadow: 0 1px 1px $white-two;
    line-height: normal;
@@ -71,7 +71,7 @@ $roboto: 'Roboto', sans-serif;
 .promo-1 {
    font-family: $robotoS;
    padding: 10px 0;
-   font-size: 1rem;
+   font-size: 1.5rem;
    font-weight: 300;
    width: 200px;
 }
@@ -96,36 +96,39 @@ $roboto: 'Roboto', sans-serif;
    flex-direction: column;
    justify-content: center;
    align-items: flex-start;
-   padding: 10px 21px ;
- 
+   padding: 10px 21px;
+
 }
 
 .inspo {
    color: $bright-orange;
    font-family: $roboto;
-   font-size: 1rem;
+   font-size: 1.4rem;
    font-weight: light;
    text-align: left;
-   padding:3px 0;
- 
+   padding: 3px 0;
+
 }
+
 .title-section1 {
    font-family: $robotoS;
-   font-size: 2rem;
-   padding:3px 0;
-   font-weight: bold;
+   font-size: 2.4rem;
+   padding: 5px 0;
+   font-weight:bolder;
 }
+
 .text-section1 {
    font-family: $roboto;
-   font-size: 1rem;
+   font-size: 1.6rem;
    color: $greyish-brown;
    font-weight: normal;
    flex-grow: 0;
-   line-height: 1.75;
+   line-height: 1.8;
    padding-bottom: 15px;
 }
+
 .button {
-   padding:5%;
+   padding: 5%;
    width: 120px;
    height: 35px;
    border: solid $bright-orange;
@@ -134,18 +137,50 @@ $roboto: 'Roboto', sans-serif;
    justify-content: center;
    text-align: center;
    border-radius: 50px;
-   font-size: 1.5rem;
+   font-size: 2rem;
    color: $bright-orange;
 }
-.section-2 {
-height: 450px;
-background-color: $white-two; 
-display:flex;
-flex-direction: column;
-justify-content: space-between;
-align-items:center;
 
+.section-2 {
+   background-color: $white-two;
+   font-family: $roboto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
 }
-.inspo2 {
-padding: 30px;
+
+.section-2 .inspo2 {
+   width: 200px;
+   padding: 10px 0 0 0;
+   font-family: $robotoS;
+   font-size: 2rem;
+   line-height: 1.5;
+   text-align: center;
+   font-weight: 700;
+}
+
+.section-2-offers {
+   width: 100px;
+   padding: 18px 0;
+   text-align: center;
+   line-height: 1.35;
+   font-size: 1.8rem;
+}
+.section-2-offers-title {
+text-align: center;
+}
+.section-2 .button2 {
+   padding: 5%;
+   background-color: $bright-orange;
+   width: 120px;
+   height: 35px;
+   border: solid $bright-orange;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
+   border-radius: 50px;
+   font-size: 2rem;
+   color: $colorwhite;
 }

@@ -47,7 +47,7 @@ html {
 
 .title {
   font-family: "Roboto", sans-serif;
-  font-size: 2.3rem;
+  font-size: 2.9rem;
   width: 290px;
   text-shadow: 0 1px 1px #f2f2f2;
   line-height: normal;
@@ -56,7 +56,7 @@ html {
 .promo-1 {
   font-family: "Roboto Slab", serif;
   padding: 10px 0;
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: 300;
   width: 200px; }
 
@@ -83,24 +83,24 @@ html {
 .inspo {
   color: #f26002;
   font-family: "Roboto", sans-serif;
-  font-size: 1rem;
+  font-size: 1.4rem;
   font-weight: light;
   text-align: left;
   padding: 3px 0; }
 
 .title-section1 {
   font-family: "Roboto Slab", serif;
-  font-size: 2rem;
-  padding: 3px 0;
-  font-weight: bold; }
+  font-size: 2.4rem;
+  padding: 5px 0;
+  font-weight: bolder; }
 
 .text-section1 {
   font-family: "Roboto", sans-serif;
-  font-size: 1rem;
+  font-size: 1.6rem;
   color: #4a4a4a;
   font-weight: normal;
   flex-grow: 0;
-  line-height: 1.75;
+  line-height: 1.8;
   padding-bottom: 15px; }
 
 .button {
@@ -113,18 +113,48 @@ html {
   justify-content: center;
   text-align: center;
   border-radius: 50px;
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: #f26002; }
 
 .section-2 {
-  height: 450px;
   background-color: #f2f2f2;
+  font-family: "Roboto", sans-serif;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center; }
 
-.inspo2 {
-  padding: 30px; }
+.section-2 .inspo2 {
+  width: 200px;
+  padding: 10px 0 0 0;
+  font-family: "Roboto Slab", serif;
+  font-size: 2rem;
+  line-height: 1.5;
+  text-align: center;
+  font-weight: 700; }
+
+.section-2-offers {
+  width: 100px;
+  padding: 18px 0;
+  text-align: center;
+  line-height: 1.35;
+  font-size: 1.8rem; }
+
+.section-2-offers-title {
+  text-align: center; }
+
+.section-2 .button2 {
+  padding: 5%;
+  background-color: #f26002;
+  width: 120px;
+  height: 35px;
+  border: solid #f26002;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border-radius: 50px;
+  font-size: 2rem;
+  color: #fff; }
 
 /*# sourceMappingURL=main.css.map */
