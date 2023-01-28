@@ -26,14 +26,14 @@ $robotoS: 'Roboto Slab', serif;
 $roboto: 'Roboto', sans-serif;
 
 .burguer {
-   width: 10px;
+   width: 11px;
 
 }
 
 .burguer-box {
    box-sizing: border-box;
-   height: 20px;
-   width: 20px;
+   width: 27px;
+   height: 30px;
    background-color: $bright-orange;
    position: fixed;
    display: flex;
@@ -45,7 +45,7 @@ $roboto: 'Roboto', sans-serif;
 
 .hero {
    height: 580px;
-   padding-bottom: 10px;
+   padding-bottom: 35px;
    background-image: url("../images/cover.jpeg");
    background-repeat: no-repeat;
    background-position: left;
@@ -61,33 +61,36 @@ $roboto: 'Roboto', sans-serif;
 
 .title {
    font-family: $roboto;
-   font-size: 2.9rem;
+   font-size: 3.6rem;
    width: 290px;
-   text-shadow: 0 1px 1px $white-two;
-   line-height: normal;
-   letter-spacing: 0.5px;
+   text-shadow: 0px 0.7px 0.7px $white-two;
+   line-height: 1.2;
+   font-weight: bold;
+   letter-spacing:0.5px;
 }
 
 .promo-1 {
    font-family: $robotoS;
-   padding: 10px 0;
+   padding: 0 0 12px;
    font-size: 1.5rem;
    font-weight: 300;
    width: 200px;
 }
 
 .scroll-down {
-   width: 15px;
+   width: 12px;
+
 }
 
 .white-circle {
    background-color: $colorwhite;
-   width: 23px;
-   height: 23px;
+   width: 25px;
+   height: 25px;
    display: flex;
+   flex-direction: column;
    justify-content: center;
    align-items: center;
-   border-radius: 52%;
+   border-radius: 15px;
 }
 
 .section-1 {
@@ -212,27 +215,82 @@ $roboto: 'Roboto', sans-serif;
    align-items: center;
    padding: 50px 0;
 }
+
 .nav-1-ul {
-   padding:10px 10px;
+   padding: 13px 13px;
    display: flex;
    flex-direction: column;
    justify-content: space-between;
-   align-items:center;
+   align-items: center;
    line-height: 1.75;
 }
+
 .nav-2-ul {
-   padding:10px 10px;
+   padding: 13px 13px;
    display: flex;
    flex-direction: column;
    justify-content: space-between;
-   align-items:center;
+   align-items: center;
    line-height: 1.75;
 }
+
 .nav-li {
    list-style-type: none;
    text-decoration: none;
+
    .nav-a {
-   color:$colorwhite;
-   text-decoration: inherit;
+      color: $colorwhite;
+      text-decoration: inherit;
    }
+}
+
+.footer-branding {
+   padding: 50px 0px;
+}
+
+.footer-branding-heart {
+   color: $bright-orange;
+}
+
+@media all and (min-width: 768px) {
+
+.burguer {
+   width: 15px;
+
+}
+
+.burguer-box {
+   box-sizing: border-box;
+   width: 37px;
+   height: 34px;
+}
+.hero {
+   height: 780px;
+}
+.title {
+   font-family: $roboto;
+   font-size: 6.5rem;
+   width: 600px;
+   letter-spacing: 0.7px;
+}
+.promo-1 {
+   font-family: $robotoS;
+   padding: 0 0 18px;
+   font-size: 2.3rem;
+   width: 450px;
+}
+.scroll-down {
+   width: 18px;
+}
+
+.white-circle {
+   background-color: $colorwhite;
+   width: 35px;
+   height: 35px;
+   border-radius: 18px;
+}
+.inspo {
+   font-size: 1.6rem;
+   padding: 3px 0;
+}
 }
