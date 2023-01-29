@@ -177,7 +177,7 @@
     border-radius: 18px; }
   .section-1 {
     width: 700px;
-    padding: 16px 21px; }
+    padding: 37px 21px 40px; }
   .inspo {
     font-size: 1.7rem;
     padding: 3px 0; }
@@ -224,7 +224,11 @@
   .promo-1 {
     padding: 0 0 18px;
     width: 600px;
-    font-size: 2.4rem; } }
+    font-size: 2.4rem; }
+  .section-1 {
+    width: 830px;
+    margin: auto;
+    padding: 50px 0px 40px; } }
 
 .burguer {
   width: 11px; }
