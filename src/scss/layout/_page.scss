@@ -1,7 +1,7 @@
 .hero {
   height: 580px;
   padding-bottom: 35px;
-  background-image: url("../images/cover.jpeg");
+  background-image: url('../images/cover.jpeg');
   background-repeat: no-repeat;
   background-position: left;
   background-size: cover;
@@ -34,7 +34,6 @@
 
 .scroll-down {
   width: 12px;
-
 }
 
 .white-circle {
@@ -55,7 +54,6 @@
   justify-content: center;
   align-items: flex-start;
   padding: 10px 21px;
-
 }
 
 .inspo {
@@ -65,7 +63,6 @@
   font-weight: light;
   text-align: left;
   padding: 3px 0;
-
 }
 
 .title-section1 {
@@ -119,12 +116,11 @@
 
 .section-2-container-offers {
   padding-bottom: 10px;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   justify-content: center;
   align-items: center;
-
 }
 
 .section-2-offers {
@@ -232,11 +228,11 @@
 
   .section-2-container-offers {
     width: 100%;
-      display: grid;
-      grid-template-rows: 1fr;
-      grid-template-columns: 1fr 1fr 1fr;
-      justify-content: center;
-      align-items: left;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: left;
     padding: 0 25px 25px;
   }
 
@@ -262,8 +258,6 @@
   .hero {
     height: 1268px;
     padding-bottom: 38px;
-
-
   }
 
   .title {
@@ -279,25 +273,25 @@
     font-size: 2.4rem;
   }
 
-    .section-1 {
-      width: 830px;
-      margin: auto;
-      padding: 50px 0px 40px;
-    }
+  .section-1 {
+    width: 830px;
+    margin: auto;
+    padding: 50px 0px 40px;
+  }
 
-    .section-2-container-offers {
+  .section-2-container-offers {
     width: 100%;
-      display: grid;
-      grid-template-rows: 1fr;
-      grid-template-columns: 1fr 1fr 1fr;
-      justify-content: space-around;
-      padding: 0 25px 25px;
-    }
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-around;
+    padding: 0 25px 25px;
+  }
 
-    .section-2-offers {
+  .section-2-offers {
     width: 100%;
-      padding: 25px 0;
-      line-height: 1.45;
-      font-size: 2rem;
-    }
+    padding: 25px 0;
+    line-height: 1.45;
+    font-size: 2rem;
+  }
 }
