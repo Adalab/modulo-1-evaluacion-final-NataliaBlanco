@@ -36,7 +36,6 @@
   text-decoration: inherit;
 }
 
-
 .footer-branding {
   padding: 50px 0px;
 }
@@ -46,7 +45,6 @@
 }
 
 @media all and (min-width: 768px) {
-
   .footer {
     display: flex;
     flex-direction: row;
@@ -55,19 +53,18 @@
     padding: 50px 0;
   }
 
-    .footer-branding {
-      order: -1
-    }
-    .nav-1-ul {
+  .footer-branding {
+    order: -1;
+  }
+  .nav-1-ul {
     display: flex;
     flex-direction: column;
     align-items: left;
   }
 
-    .nav-2-ul {
-      display: flex;
-      flex-direction: column;
-      align-content: left;
-    }
-
+  .nav-2-ul {
+    display: flex;
+    flex-direction: column;
+    align-content: left;
+  }
 }
